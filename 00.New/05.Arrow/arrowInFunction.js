@@ -6,7 +6,7 @@ class Person {
 }
 
 const obj = new Person();
-obj.sayHello();
+obj.sayHello(); //Hi there~
 
 // 파라미터 - inline
 
@@ -18,10 +18,10 @@ const run = () => {
     console.log('Run Run!');
 }
 
-doIt(run);
+doIt(run); //Run Run!
 
 doIt( () => {
-    console.log('Jump!');
+    console.log('Jump!'); //Jump!
 });
 
 
@@ -35,7 +35,7 @@ function sayIt() {
 }
 
 const singAsong = sayIt();
-singAsong();
+singAsong(); //let it go
 
 function danceIt() {
     return () => {
@@ -43,7 +43,7 @@ function danceIt() {
     }
 }
 
-danceIt()();
+danceIt()(); //shall we dance?
 
 // inline, with parameter
 const doYouWanna = (it) => {
@@ -52,4 +52,4 @@ const doYouWanna = (it) => {
     }
 }
 
-doYouWanna('snowman')();
+doYouWanna('snowman')(); //do you wanna build snowman

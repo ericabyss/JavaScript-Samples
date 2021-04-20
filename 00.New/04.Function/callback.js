@@ -6,7 +6,7 @@ function add(i, j) {
 }
 
 const result1 = add(1, 2);
-console.log("1 + 2 = " + result1);
+console.log("1 + 2 = " + result1); //1+2=3
 
 //
 // 콜백을 사용하는 함수

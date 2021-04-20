@@ -8,10 +8,10 @@ function addAll(...arg) {
 }
 
 const sum1 = addAll(1);
-console.log( sum1 );
+console.log( sum1 ); //
 
 const sum2 = addAll(1, 2, 3);
-console.log( sum2 );
+console.log( sum2 ); //6
 
 // 가변길이 파라미터는 1개만 사용 가능
 // function chaos(...arg1, ...arg2) {

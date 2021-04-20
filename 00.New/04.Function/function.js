@@ -23,5 +23,5 @@ function goodNight() {
 }
 
 goodNight();
-// Error
+// Error : 지역함수 외부 사용 불가
 //say();
