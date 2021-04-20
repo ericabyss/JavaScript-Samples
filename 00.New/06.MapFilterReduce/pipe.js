@@ -9,8 +9,8 @@ const movies = [
 
 const totalGrossAfter2000 = movies
     .filter( item => item.year > 2000)
-    .map( item => item.us_gross + item.ww_gross )
-    .reduce( (prev, cur) => prev + cur );
+    .map( item => item.us_gross + item.ww_gross ) //[ 2068, 1056, 1333 ]
+    .reduce( (prev, cur) => prev + cur ); //4457
 
 console.log(totalGrossAfter2000);
 
